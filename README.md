@@ -1,5 +1,9 @@
 # responsive-components-case-study
 
+Title: How to handle responsiveness? A case study
+Tags: typeform, front-end, software development, responsiveness, ?
+
+
 ## The Problem
 
 At a recent meeting with the frontend developers we discussed the following question: "How should our components handle responsiveness?"
@@ -655,3 +659,8 @@ If this stuff interests you I encourage you to try and implement the responsive 
 ## Footnotes
 1. Why is it bad to create one-off components? For me this is a sign that the design system is not working well. It means that the design system is not supporting something you want to do, so you have to create it yourself.
 2. I am defining "using JS for responsivess" as "using the `window` object to implement render logic depending on the screen size". This does not work in SSR nor static rendering because, in a server or in a static build, you do not have access to the `window` object.
+
+Thank you for reading! We are glad to share our experience and help everybody out there to code better.
+* Are you dealing with reponsiveness challenges? Please share your experience with us!
+* Are you an engineer interested in microservices? Check out our [Developer Platform!](https://developer.typeform.com/)
+* [And yes... we are hiring!](https://www.typeform.com/careers)
